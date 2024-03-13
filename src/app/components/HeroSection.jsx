@@ -34,6 +34,7 @@ const HeroSection = () => {
       wrapper="span"
       speed={50}
       repeat={Infinity}
+      
     /></h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6 w-auto'>
                     Bienvenue chez Painter Studio, service de peinture sur figurines! </p>
