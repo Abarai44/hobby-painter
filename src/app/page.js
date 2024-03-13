@@ -29,7 +29,7 @@ export default function Home() {
         <ProjectsSection showModal={showModal} setShowModal={setShowModal} setValue={setValue}/>
         </div>
         <div className="relative z-0">
-        <StarsCanvas/>
+        
         <Contact/>
         </div>
       
