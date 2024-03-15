@@ -40,7 +40,7 @@ const ProjectsSection = ({showModal,setShowModal,setValue}) => {
                     initial="initial" 
                     animate= {isInView ? 'animate':'initial'} 
                     key={project.id}
-                    transition={{duration: 0.3, delay:index*0.4}} >
+                    transition={{duration: 0.3, delay:index*0.3}} >
                 < ProjectCard 
                     title={project.title} 
                     description={project.level} 

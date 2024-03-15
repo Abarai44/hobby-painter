@@ -63,13 +63,13 @@ const handleSubmit=(e)=>{
 }
 
   return (
-    <div className='pt-32' id='contact'>
-    <div className='lg:flex lg:gap-10 justify-center m-auto '>
+    <div className="pt-32 bg-[url('/images/wall-sista.jpg')] bg-cover" id='contact' >
+    <div className='lg:flex lg:gap-10 justify-center  ' >
         <motion.div 
             initial={{ opacity: 0, x:-100 }}
             animate={{ opacity: 1, x:0 }}
             transition={{ duration: 0.4}}
-            className='lg:w-1/3 bg-neutral-900 rounded-md '
+            className='lg:w-1/3 bg-neutral-900/50 rounded-md my-4 '
         >
          <h2 className='text-4xl text-white font-bold m-8 '>Contact</h2>
     <form

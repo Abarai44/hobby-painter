@@ -28,12 +28,8 @@ export default function Home() {
         <ServicePeinture/>
         <ProjectsSection showModal={showModal} setShowModal={setShowModal} setValue={setValue}/>
         </div>
-        <div className="relative z-0">
-        
-        <Contact/>
-        </div>
-      
-      <Footer/>
+        <Contact />
+        <Footer/>
     </main>
   );
 }

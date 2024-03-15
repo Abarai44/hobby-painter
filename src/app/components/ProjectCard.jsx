@@ -41,7 +41,7 @@ const ProjectCard = ({imgUrl,title, description,setShowModal,setValue}) => {
             </div>
 
         </div>
-        <div className='text-white rounded-b-xl bg-[#181818] py-6 px-4 w-80 md:w-auto justify-items-center m-auto'>
+        <div className='text-white rounded-b-xl bg-[#181818] py-6 px-4 w-80 h-40 md:w-auto justify-items-center m-auto'>
             <h5 className='text-xl font-semibold mb-2'>{title}</h5>
             <p className='text-[#ADB7BE]'>{description}</p>
         </div>

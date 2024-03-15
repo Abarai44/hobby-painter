@@ -12,7 +12,7 @@ const ModalContents = ({onClose,value}) => {
           alt='image'
           width={400}
           height={400}
-          className='lg:w-[500px] lg:h-[600px]'
+          className='lg:w-[650px] lg:h-[800px]'
           
 
         />
