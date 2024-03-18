@@ -1,6 +1,6 @@
 import { Suspense} from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, useGLTF } from "@react-three/drei";
+import { OrbitControls,Preload, useGLTF } from "@react-three/drei";
 import Loader from "../Loader";
 
 import React from 'react'
@@ -43,7 +43,7 @@ const SlullCanvas =()=>{
         frameloop='demand'
         shadows
         dpr={[1, 2]}
-        camera={{ position: [25, 3, 5], fov:30 }}
+        camera={{ fov:45, near:0.1, position: [25, 3, 5], fov:30 }}
         gl={{ preserveDrawingBuffer: true }}
              
         >
@@ -55,6 +55,7 @@ const SlullCanvas =()=>{
                 minPolarAngle={Math.PI/2}  
             />
             <Skull/>
+            <Preload all/>
             </Suspense>
         </Canvas>
     )
