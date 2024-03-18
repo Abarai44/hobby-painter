@@ -64,7 +64,7 @@ const handleSubmit=(e)=>{
 
   return (
     <div className="pt-32 bg-[url('/images/wall-sista.jpg')] bg-cover" id='contact' >
-    <div className='lg:flex lg:gap-10 justify-center  ' >
+    <div className='lg:flex lg:gap-10 justify-center' >
         <motion.div 
             initial={{ opacity: 0, x:-100 }}
             animate={{ opacity: 1, x:0 }}
@@ -112,7 +112,7 @@ const handleSubmit=(e)=>{
         </label>
         <button
             type='submit'
-            className=' text-white py-3 px-8 outline-none shadow-md shadow-black rounded-xl bg-gradient-to-r from-primary-600 to-secondary-800  '
+            className=' text-white py-3 px-8 m-4 outline-none shadow-md shadow-black rounded-xl bg-gradient-to-r from-primary-600 to-secondary-800  '
         >
             {loading ? 'Sending...' : 'Send'}
         </button>

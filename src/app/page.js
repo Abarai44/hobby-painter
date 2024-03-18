@@ -9,7 +9,6 @@ import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
 import ServicePeinture from "./components/ServicePeinture";
 import ModalContents from "./components/ModalContents";
-import StarsCanvas from "./components/canvas/Stars";
 import { useState } from "react";
 
 

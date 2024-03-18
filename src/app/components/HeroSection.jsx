@@ -18,7 +18,7 @@ const HeroSection = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }} 
                 className='col-span-8 place-self-center text-center lg:text-left lg:justify-self-start'>
-                <h1 className="text-white mb-4 text-4xl sm:text-5xl  lg:leading-normal  font-extrabold">
+                <h1 className="text-white mb-4 h-40 sm:h-auto text-4xl sm:text-5xl  lg:leading-normal  font-extrabold">
                     <span className='text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-800'>Bienvenue,{""}</span>
                     <br />
                     <TypeAnimation
@@ -34,6 +34,7 @@ const HeroSection = () => {
       wrapper="span"
       speed={50}
       repeat={Infinity}
+      
       
     /></h1>
                 <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6 w-auto'>
@@ -54,9 +55,10 @@ const HeroSection = () => {
                     <Image
                         src="/images/abarai-logo2.png"
                         alt="logo image"
-                        className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2  '
+                        className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-200 h-200 '
                         width={200}
                         height={200}
+                        priority={true}
                     />
                 </div>
             </motion.div>

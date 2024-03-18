@@ -33,7 +33,7 @@ const ProjectsSection = ({showModal,setShowModal,setValue}) => {
             <ProjectTag onClick={handleTabChange} name="perso" isSelected={tag==="perso"}/>
             <ProjectTag onClick={handleTabChange} name="commande" isSelected={tag==="commande"}/>
         </div>
-        <ul className='mt-3 grid md:grid-cols-2 gap-8 lg:grid-cols-3 xl:grid-cols-4 md:gap-12'>
+        <ul className='mt-3 grid md:grid-cols-2 gap-8 lg:grid-cols-3 xl:grid-cols-4 md:gap-12 justify-center'>
             {filteredProject.map((project,index)=>(
                 <motion.li 
                     variants={cardVariants} 

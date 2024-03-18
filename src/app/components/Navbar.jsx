@@ -23,7 +23,8 @@ const Navbar = () => {
                 src="/images/abarai-logo2.png"
                 alt="logo site"
                 height={50}
-                width={50}/>
+                width={50}
+                />
                 </Link>
                 <div className='mobile-menu block md:hidden'>
                     {
